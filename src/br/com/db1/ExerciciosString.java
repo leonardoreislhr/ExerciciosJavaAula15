@@ -59,6 +59,7 @@ public class ExerciciosString {
 		}
 	
 	public String inverterTexto(String texto){
-		for(Integer x = texto.length())
+		String palavra = new StringBuffer(texto).reverse().toString();
+		return palavra; 
 	}
 }

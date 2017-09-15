@@ -75,8 +75,9 @@ public class ExerciciosStringTest {
 		Assert.assertTrue(4 == numero);
 	}
 	
-	/*@Test
+	@Test
 	public void inverterTextoTest(){
-		String palavra = exerciciosString.
-	}*/
+		String palavra = exerciciosString.inverterTexto("Leonardo");
+		Assert.assertEquals("odranoeL", palavra);
+	}
 }
